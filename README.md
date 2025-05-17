@@ -72,7 +72,7 @@ df['weekend'] = df['dayofweek'].apply(lambda x: 1 if x >= 5 else 0)
 
 ## 📊 Results
 
-- ✅ Final F1-Score: **0.78**
+- ✅ Final F1-Score: **0.60**
 - ✅ Predictions generated on **test.parquet**
 - ✅ Submission-ready predictions saved to CSV
 
@@ -87,7 +87,7 @@ Through the anomaly exploration phase, an interesting pattern emerged:
 
 ## 🏅 Achievement
 
-Proudly secured **99th Rank Globally** 🏆 in the **Celebal Sensor Anomaly Detection Challenge**, competing with data science professionals worldwide.
+Proudly secured **75th Rank Globally** 🏆 in the **Celebal Sensor Anomaly Detection Challenge**, competing with data science professionals worldwide.
 
 ---
 
