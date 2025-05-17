@@ -1,7 +1,6 @@
-
 # 🛰️ Sensor Anomaly Detection - Celebal Challenge
 
-This repository presents a complete pipeline to identify anomalies in sensor readings. Leveraging **XGBoost**, this project follows a robust flow—from data preprocessing and feature engineering to model tuning and prediction generation.
+This repository presents a complete pipeline to identify anomalies in sensor readings. Leveraging an **Artificial Neural Network (ANN)**, this project follows a robust flow—from data preprocessing and feature engineering to model tuning and prediction generation.
 
 ---
 
@@ -11,8 +10,7 @@ Develop a high-performing anomaly detection model focused on **F1-score optimiza
 
 - Data preprocessing and exploratory analysis
 - Feature creation and enhancement
-- Model development with **XGBoost**
-- Hyperparameter tuning using **Optuna**
+- Model development using **ANN**
 - Handling class imbalance with **SMOTE**
 - Generating submission-ready predictions
 
@@ -31,8 +29,7 @@ Dataset includes sensor readings (X1, X2, ..., X5) and time-engineered features 
 
 - Python 3.11
 - pandas, numpy
-- xgboost
-- optuna (hyperparameter optimization)
+- TensorFlow / Keras (for ANN)
 - scikit-learn
 - imbalanced-learn (SMOTE)
 - matplotlib, seaborn (visualization)
@@ -64,8 +61,8 @@ df['weekend'] = df['dayofweek'].apply(lambda x: 1 if x >= 5 else 0)
 - Addressed class imbalance using **SMOTE**
 
 ### Model Training
-- Trained an **XGBClassifier**
-- Tuned hyperparameters via **Optuna**
+- Trained an **Artificial Neural Network (ANN)**
+- Used **early stopping and hyperparameter tuning**
 - Evaluated using **F1-Score** with 3-fold cross-validation
 
 ---
@@ -100,5 +97,3 @@ Graphs showcasing anomaly distribution over the year and feature importances are
 ## 💼 Author
 
 **Kaustubh Yewale**
-
----
