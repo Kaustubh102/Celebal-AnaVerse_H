@@ -85,7 +85,7 @@ Through the anomaly exploration phase, an interesting pattern emerged:
 ## 🏅 Achievement
 
 Proudly secured **75th Rank Globally** 🏆 in the **Celebal Sensor Anomaly Detection Challenge**, competing with data science professionals worldwide.
-![Alt text](https://github.com/Kaustubh102/Celebal-AnaVerse_H/75.png)
+![Celebal Rank](75.png)
 ---
 
 ## 📈 Visualization
